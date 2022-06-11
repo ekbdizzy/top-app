@@ -1,24 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Top Courses App
+Frontend of web application on NextJS.
 
-## Getting Started
+## Install
+First you should install [node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/).  
 
-First, run the development server:
-
+1. Clone repository [https://github.com/ekbdizzy/top-app](https://github.com/ekbdizzy/top-app) and go to project folder
+```bash
+git clone https://github.com/ekbdizzy/top-app
+cd top-app
+```
+2. Install dependencies. The simple way is to perform clean install with command:
+```bash
+npm ci
+```
+3. To start project as dev, run command:
 ```bash
 npm run dev
-# or
-yarn dev
+```
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Simple way to create new components on Mac/Linux
+This script creates folder in `./components` names component_name and files inside:
+- `component.props.ts`
+- `component.styles.css`
+- `component.tsx`
+```bash
+sh create_component new_component_name
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
+## Learn More about Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
