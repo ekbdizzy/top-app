@@ -21,11 +21,11 @@ npm run dev
 
 ## Simple way to create new components on Mac/Linux
 This script creates folder in `./components` names component_name and files inside:
-- `component.props.ts`
-- `component.styles.css`
-- `component.tsx`
+- `component_name.props.ts`
+- `component_name.styles.css`
+- `component_name.tsx`
 ```bash
-sh create_component new_component_name
+sh create_component.sh new_component_name
 ```
 
 
