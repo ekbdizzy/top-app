@@ -9,8 +9,8 @@ const Home: NextPage = () => {
         <Htag tag='h3'>Header 3</Htag>
         <Htag tag='h2'>Buttons</Htag>
         <div>
-            <Button appearance='ghost'>132232</Button>
-            <Button appearance="primary">132232</Button>
+            <Button appearance='ghost' arrow='down'>132232</Button>
+            <Button appearance="primary" arrow='right'>132232</Button>
         </div>
     </div>;
 };

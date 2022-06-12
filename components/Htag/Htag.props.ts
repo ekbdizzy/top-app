@@ -1,4 +1,4 @@
-import {ReactNode} from "react";
+import {ButtonHTMLAttributes, DetailedHTMLProps, ReactNode} from "react";
 
 export interface HtagProps {
     tag: 'h1' | 'h2' | 'h3',
